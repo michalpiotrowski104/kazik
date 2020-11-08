@@ -4,22 +4,39 @@
 }
 
 body {
-    background-color: silver;
+    background-color: #2F4F4F;
 }
 #wrapper {
     max-width: 975px;
     margin: 0 auto 0 auto;
-    background-color: white;
+   
 }
 header img{
     width: 100%;
     display: block;
 }
+#second{
+      max-width: 975px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+
+.content{
+    max-width: 975px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    
+}
 
 nav{
     background-color: darkcyan;
+    max-width: 975px;
+    margin: 0 auto 0 auto;
+
 }
-a.content{
+a.menu{
     display: inline-block;
     width: 25%;
     padding: 15px 30px 15px 30px;
@@ -28,12 +45,34 @@ a.content{
     text-align: center;
     
 }
-a.content:hover {
-    background-color: aqua;
+a.menu:hover {
+   color: black;
 }
 
-article {
-    margin-top: 0;   
+#first{
+     max-width: 975px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    text-align: center;
+  
+}
+#photo {
+     max-width: 975px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    text-align: center;
+    display: block;
+}
+
+#photo img{
+    width: 25%;
+}
+
+h2{
+     font-size: 30px;
+    margin: 0 10% 20px 10%;
+    border-bottom: 2px solid crimson;
+    padding: 15px 0 15px 0;
 }
 
 h1{
@@ -42,13 +81,20 @@ h1{
     margin: 0 10% 20px 10%;
     padding: 15px 0 15px 0;
     border-bottom: 2px solid crimson;
+    color: black;
     
 }
+article{
+   margin-right: 20px;
+    
+    
+}
+
 img.left{
     float: left;
-    padding: 10px;
+    padding: 15px;
     width: 25%;
-    border-radius: 50%;
+    border-radius: 0;
 }
 article p {
     text-align: justify;
